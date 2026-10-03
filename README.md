@@ -1,1 +1,1 @@
-# seven-korean-bakery
+# seven-korean-bakeryTest access - TTEOK-2
