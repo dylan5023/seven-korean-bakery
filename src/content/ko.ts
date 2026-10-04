@@ -1,5 +1,5 @@
 const ko = {
-  siteTitle: "세븐 코리안 베이커리",
+  siteTitle: "일곱시 떡집",
 };
 
 export default ko;
