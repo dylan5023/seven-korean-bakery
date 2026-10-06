@@ -40,3 +40,7 @@ npm run lint
 npm run build
 npm run format:check
 ```
+
+## AI tools
+
+AGENTS.md is the single source of project rules.
