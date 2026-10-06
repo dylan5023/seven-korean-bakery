@@ -8,7 +8,10 @@ Phase 1 is frontend-only. See [product-spec.md](product-spec.md) for feature det
 2. **Global Layout** – header, navigation, English / 한국어 toggle, footer.
 3. **Home** – hero, introduction, ordering steps, occasions, today's store hours, gallery placeholders.
 4. **Products** – Find Our Products page: our store, store hours, other retail locations.
-5. **Custom Order** – order / inquiry request form. Blocked: the product spec for this page is incomplete.
+5. **Custom Order** – order / inquiry request form. **Partially blocked.**
+   - Ready: request type dropdown, customer details (KakaoTalk ID shown only when KakaoTalk is selected), order category dropdown, everyday menu selection with quantity.
+   - Blocked: Special Occasion details, collection options, and submission handling (the spec text was cut off).
+   - Also blocked: choosing a form submission service (see open decisions).
 6. **Gallery** – blocked: no requirements or photos yet.
 
 ## Open decisions
