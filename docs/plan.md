@@ -16,7 +16,7 @@ Phase 1 is frontend-only. See [product-spec.md](product-spec.md) for feature det
 
 ## Open decisions
 
-- **Hosting** – not decided.
+- **Hosting** – Cloudflare Pages static hosting (TTEOK-10). `npm run build` exports `out/`; Node.js 24 is selected by `.nvmrc`. Root redirects to the shared default locale; `/ko` and `/en` are pre-rendered and unsupported locales return 404. See [deployment settings](architecture.md#cloudflare-pages-hosting). Connecting the repository, checking a Pages preview deployment, and attaching the chosen domain remain deployment steps.
 - **Form submission service** – not decided. Needed for the Custom Order form without a backend.
 - **Domain and existing site** – what happens to the current `7koreanbakery.ca` site, and which domain the new site uses.
 - **Default language** – currently Korean (`defaultLocale` in `src/lib/locales.ts`). To be confirmed.
