@@ -8,9 +8,15 @@ export const business = {
   timeZone: "America/Vancouver",
   logoPath: "/logo.png" as string | null,
   contact: {
+<<<<<<< HEAD
     phone: "[PHONE NUMBER]",
     orderEmail: "[ORDER EMAIL]",
     instagram: "[INSTAGRAM LINK]",
+=======
+    phone: "604-461-8058 or 778-956-5536",
+    orderEmail: "luh0401@naver.com",
+    instagram: "7KoreanBakery.yvr",
+>>>>>>> 2090fb7 (fix homepage)
   },
   links: {
     privacy: { en: "/en/privacy", ko: "/ko/privacy" },

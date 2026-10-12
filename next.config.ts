@@ -1,11 +1,9 @@
 import type { NextConfig } from "next";
-import { defaultLocale } from "./src/lib/locales";
 
 const nextConfig: NextConfig = {
-  async redirects() {
-    return [
-      { source: "/", destination: `/${defaultLocale}`, permanent: false },
-    ];
+  output: "export",
+  images: {
+    unoptimized: true,
   },
 };
 
