@@ -1,0 +1,72 @@
+export const business = {
+  name: {
+    en: "Seven Korean Bakery",
+    ko: "일곱시 떡집",
+  },
+  address: "1163 Pinetree Way, Coquitlam, BC",
+  mall: "Henderson Mall",
+  timeZone: "America/Vancouver",
+  logoPath: "/logo.png" as string | null,
+  contact: {
+    phone: "[PHONE NUMBER]",
+    orderEmail: "[ORDER EMAIL]",
+    instagram: "[INSTAGRAM LINK]",
+  },
+  links: {
+    privacy: { en: "/en/privacy", ko: "/ko/privacy" },
+    customOrder: { en: "/en/custom-order", ko: "/ko/custom-order" },
+    products: { en: "/en/find-our-products", ko: "/ko/find-our-products" },
+    gallery: { en: "/en/gallery", ko: "/ko/gallery" },
+  },
+  hours: [
+    {
+      day: "Monday",
+      en: "Monday",
+      ko: "월요일",
+      hours: "Closed",
+      koHours: "휴무",
+    },
+    {
+      day: "Tuesday",
+      en: "Tuesday",
+      ko: "화요일",
+      hours: "9 AM–6 PM",
+      koHours: "오전 9시–오후 6시",
+    },
+    {
+      day: "Wednesday",
+      en: "Wednesday",
+      ko: "수요일",
+      hours: "9 AM–6 PM",
+      koHours: "오전 9시–오후 6시",
+    },
+    {
+      day: "Thursday",
+      en: "Thursday",
+      ko: "목요일",
+      hours: "9 AM–6 PM",
+      koHours: "오전 9시–오후 6시",
+    },
+    {
+      day: "Friday",
+      en: "Friday",
+      ko: "금요일",
+      hours: "9 AM–6 PM",
+      koHours: "오전 9시–오후 6시",
+    },
+    {
+      day: "Saturday",
+      en: "Saturday",
+      ko: "토요일",
+      hours: "9 AM–6 PM",
+      koHours: "오전 9시–오후 6시",
+    },
+    {
+      day: "Sunday",
+      en: "Sunday",
+      ko: "일요일",
+      hours: "9 AM–11 AM",
+      koHours: "오전 9시–오전 11시",
+    },
+  ],
+} as const;
